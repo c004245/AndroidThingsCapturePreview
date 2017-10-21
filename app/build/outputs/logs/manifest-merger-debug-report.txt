@@ -1,0 +1,76 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jimmy_b/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/37b4f89b63109402a572a450fa03ab6b/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:5:5-64
+	android:name
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:5:22-62
+application
+ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:7:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jimmy_b/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/37b4f89b63109402a572a450fa03ab6b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jimmy_b/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/37b4f89b63109402a572a450fa03ab6b/AndroidManifest.xml:9:5-20
+uses-library#com.google.android.things
+ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:8:9-66
+	android:name
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:8:23-63
+activity#studio.loophole.android_things_kotlin.MainActivity
+ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:10:9-22:20
+	android:name
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:10:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:11:13-15:29
+action#android.intent.action.MAIN
+ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:12:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:14:27-74
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.IOT_LAUNCHER
+ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:16:13-21:29
+category#android.intent.category.IOT_LAUNCHER
+ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:19:17-81
+	android:name
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:19:27-78
+category#android.intent.category.DEFAULT
+ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:20:17-76
+	android:name
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml:20:27-73
+uses-sdk
+INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jimmy_b/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/37b4f89b63109402a572a450fa03ab6b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jimmy_b/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/37b4f89b63109402a572a450fa03ab6b/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+		ADDED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/src/main/AndroidManifest.xml

@@ -1,0 +1,12 @@
+#Internal package file, do not edit.
+#Sat Oct 21 12:58:18 SAST 2017
+1.base=/home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/build/intermediates/res/debug/resources-debug.ap_
+1.file=/home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/activity_main.xml
+2.base=/home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/build/intermediates/res/debug/resources-debug.ap_
+2.set=ANDROID_RESOURCE
+2.file=/home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/build/intermediates/res/debug/resources-debug.ap_/resources.arsc
+count=3
+1.set=ANDROID_RESOURCE
+0.set=ANDROID_RESOURCE
+0.base=/home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/build/intermediates/res/debug/resources-debug.ap_
+0.file=/home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/build/intermediates/res/debug/resources-debug.ap_/AndroidManifest.xml

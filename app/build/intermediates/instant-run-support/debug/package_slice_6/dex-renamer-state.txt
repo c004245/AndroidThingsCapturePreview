@@ -1,0 +1,4 @@
+#Sat Oct 21 12:58:18 SAST 2017
+base.0=/home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/build/intermediates/transforms/dexMerger/debug/6
+renamed.0=classes.dex
+file.0=/home/jimmy_b/AndroidStudioProjects/Android_things_Kotlin/app/build/intermediates/transforms/dexMerger/debug/6/classes.dex
