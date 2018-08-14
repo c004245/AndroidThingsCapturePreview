@@ -9,14 +9,18 @@ import android.hardware.camera2.CameraAccessException.CAMERA_ERROR
 import android.media.ImageReader
 import android.os.Bundle
 import android.os.Handler
+import android.os.HandlerThread
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.TextureView
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.ImageView
+import kotlinx.android.synthetic.main.activity_main.*
 
 
-class CustomCamera : Fragment() {
+class CustomCamera : Fragment(), View.OnClickListener  {
 
     private var mImageReader: ImageReader? = null
     private var mCameraDevice: CameraDevice? = null
@@ -24,6 +28,12 @@ class CustomCamera : Fragment() {
     private lateinit var imageCapturedListener: ImageCapturedListener
 
     lateinit var mTextureView: TextureView
+    private lateinit var MotionImageView : ImageView
+    private lateinit var capBtn: Button
+
+
+    lateinit var mBackgroundThread: HandlerThread
+    lateinit var mBackgroundHandler: Handler
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View {
         Log.d(TAG, "onCreateView")
@@ -32,7 +42,29 @@ class CustomCamera : Fragment() {
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         mTextureView = view?.findViewById<View>(R.id.texture) as TextureView
+        MotionImageView = view?.findViewById<View> (R.id.image_picture) as ImageView
+        capBtn = view?.findViewById<View> (R.id.capBtn) as Button
 
+        capBtn.setOnClickListener(this)
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        startBackgroundThread()
+
+        if (mTextureView.isAvailable) {
+            initializeCamera(context, mTextureView, mBackgroundHandler, firstImageAvaliable)
+        } else {
+            Log.d(TAG, "setŚurfaceTexture..")
+            mTextureView.surfaceTextureListener = textureListener
+        }
+    }
+
+    fun startBackgroundThread() {
+        mBackgroundThread = HandlerThread("CameraBackground")
+        mBackgroundThread.start()
+        mBackgroundHandler = Handler(mBackgroundThread.looper)
     }
 
 
@@ -53,14 +85,41 @@ class CustomCamera : Fragment() {
         override fun onSurfaceTextureAvailable(p0: SurfaceTexture?, p1: Int, p2: Int) {
             Log.d(TAG, "onSurfaceTextureAvailable -----")
             //setup Camera
+            initializeCamera(context, mTextureView, Handler(), firstImageAvaliable)
 
         }
+    }
+
+    override fun onClick(v: View) {
+        Log.d(TAG, "onClick")
+                takePicture()
+
     }
     interface ImageCapturedListener {
         fun onImageCaptured(bitmap: Bitmap)
     }
 
-    fun initializeCamera(context: Context, backgroundHandler: Handler, imageListener: ImageCapturedListener) {
+    //prints picture on screen
+    private val firstImageAvaliable = object : CustomCamera.ImageCapturedListener {
+        override fun onImageCaptured(bitmap: Bitmap) {
+            MotionImageView.setImageBitmap(bitmap)
+            //motionViewModel.uploadMotionImage(bitmap)
+        }
+    }
+
+    private val imageAvailableListener = ImageReader.OnImageAvailableListener { reader ->
+        val image = reader.acquireLatestImage()
+        val imageBuffer = image.planes[0].buffer
+        val imageBytes = ByteArray(imageBuffer.remaining())
+        imageBuffer.get(imageBytes)
+        image.close()
+        val bitmap = getBitmapFromByteArray(imageBytes)
+        imageCapturedListener.onImageCaptured(bitmap)
+    }
+
+
+
+    fun initializeCamera(context: Context, textureView: TextureView, backgroundHandler: Handler, imageListener: ImageCapturedListener) {
         val manager = context.getSystemService(Context.CAMERA_SERVICE) as CameraManager
         val camIds: Array<String>
         try {
@@ -86,18 +145,10 @@ class CustomCamera : Fragment() {
         }
     }
 
-    private val imageAvailableListener = ImageReader.OnImageAvailableListener { reader ->
-        val image = reader.acquireLatestImage()
-        val imageBuffer = image.planes[0].buffer
-        val imageBytes = ByteArray(imageBuffer.remaining())
-        imageBuffer.get(imageBytes)
-        image.close()
-        val bitmap = getBitmapFromByteArray(imageBytes)
-        imageCapturedListener.onImageCaptured(bitmap)
-    }
 
 
     fun takePicture() {
+        Log.d(TAG, "capture")
         mCameraDevice?.createCaptureSession(
                 arrayListOf(mImageReader?.surface),
                 mSessionCallback,

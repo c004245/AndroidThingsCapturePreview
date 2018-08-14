@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="hdpi"
     format="10"
-    ir-eligibility="FIELD_TYPE_CHANGE"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.2"
-    timestamp="1534212382178"
+    timestamp="1534214784344"
     token="-7618887173474547951"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="18" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="22" />
+        duration="40" />
     <task
         name="verifier"
-        duration="4" />
+        duration="10" />
 
     <artifact
         location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -80,14 +80,49 @@
         <artifact
             location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_TYPE_CHANGE"
-        timestamp="1534212382178"
+        timestamp="1534214624497"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1534214784344"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_0.apk"

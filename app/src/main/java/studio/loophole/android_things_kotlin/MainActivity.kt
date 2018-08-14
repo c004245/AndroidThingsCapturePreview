@@ -90,37 +90,15 @@ class MainActivity : Activity() {
 
     }
 
-    //TextureView SurfaceTexture Interface
-    val textureListener = object : TextureView.SurfaceTextureListener {
-        override fun onSurfaceTextureSizeChanged(p0: SurfaceTexture?, p1: Int, p2: Int) {
-
-        }
-
-        override fun onSurfaceTextureUpdated(p0: SurfaceTexture?) {
-
-        }
-
-        override fun onSurfaceTextureDestroyed(p0: SurfaceTexture?): Boolean {
-            return false
-        }
-
-        override fun onSurfaceTextureAvailable(p0: SurfaceTexture?, p1: Int, p2: Int) {
-            Log.d(TAG, "onSurfaceTextureAvailable -----")
-            //setup Camera
-
-        }
-    }
-
-    private fun setup() {
 
 
+   /* private fun setup() {
         camera = CustomCamera.getInstance()
-        camera?.initializeCamera(this@MainActivity, Handler(), imageAvailableListener)
-
-    }
+        camera?.initializeCamera(this@MainActivity, Handler(), firstImageListener)
+    }*/
 
     //prints picture on screen
-    private val imageAvailableListener = object : CustomCamera.ImageCapturedListener {
+    private val firstImageListener = object : CustomCamera.ImageCapturedListener {
         override fun onImageCaptured(bitmap: Bitmap) {
             MotionImageView.setImageBitmap(bitmap)
             //motionViewModel.uploadMotionImage(bitmap)
@@ -137,7 +115,7 @@ class MainActivity : Activity() {
     fun start() {
 
         //setup Pins
-        setup()
+//        setup()
 
         val capture = findViewById<View>(R.id.capBtn) as Button
         capture.setOnClickListener {

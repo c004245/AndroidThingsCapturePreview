@@ -12,10 +12,13 @@
 
     <application
         android:debuggable="true"
+        android:hardwareAccelerated="true"
         android:testOnly="true" >
         <uses-library android:name="com.google.android.things" />
 
-        <activity android:name="studio.loophole.android_things_kotlin.MainActivity" >
+        <activity
+            android:name="studio.loophole.android_things_kotlin.MainActivity"
+            android:hardwareAccelerated="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

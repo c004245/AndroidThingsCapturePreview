@@ -4,10 +4,12 @@
 
     <uses-permission android:name="android.permission.CAMERA"/>
 
-    <application>
+    <application
+        android:hardwareAccelerated="true">
         <uses-library android:name="com.google.android.things" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:hardwareAccelerated="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

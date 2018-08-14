@@ -1,24 +1,24 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/hyunwook/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/39aebf9e921e983f916bb1f4cd5bfa54/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:3:5-52
 		INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:2:11-69
@@ -27,37 +27,41 @@ ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/a
 	android:name
 		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:5:22-62
 application
-ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:7:5-23:19
+ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:7:5-25:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/hyunwook/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/39aebf9e921e983f916bb1f4cd5bfa54/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/hyunwook/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/39aebf9e921e983f916bb1f4cd5bfa54/AndroidManifest.xml:9:5-20
+	android:hardwareAccelerated
+		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:8:9-43
 uses-library#com.google.android.things
-ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:8:9-66
+ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:9:9-66
 	android:name
-		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:8:23-63
+		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:9:23-63
 activity#studio.loophole.android_things_kotlin.MainActivity
-ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:10:9-22:20
+ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:11:9-24:20
+	android:hardwareAccelerated
+		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:12:13-47
 	android:name
-		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:10:19-47
+		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:11:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:11:13-15:29
+ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:12:17-69
+ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:12:25-66
+		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:14:17-77
+ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:14:27-74
+		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:16:27-74
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.IOT_LAUNCHER
-ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:16:13-21:29
+ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:18:13-23:29
 category#android.intent.category.IOT_LAUNCHER
-ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:19:17-81
+ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:21:17-81
 	android:name
-		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:19:27-78
+		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:21:27-78
 category#android.intent.category.DEFAULT
-ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:20:17-76
+ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:22:17-76
 	android:name
-		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:20:27-73
+		ADDED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml:22:27-73
 uses-sdk
 INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/AndroidManifest.xml
