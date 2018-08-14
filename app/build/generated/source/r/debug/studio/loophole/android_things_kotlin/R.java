@@ -449,7 +449,8 @@ public final class R {
     public static final int parent=0x7f030007;
     public static final int spread=0x7f030008;
     public static final int spread_inside=0x7f030009;
-    public static final int wrap=0x7f03000a;
+    public static final int texture=0x7f03000a;
+    public static final int wrap=0x7f03000b;
   }
   public static final class layout {
     public static final int activity_main=0x7f040000;

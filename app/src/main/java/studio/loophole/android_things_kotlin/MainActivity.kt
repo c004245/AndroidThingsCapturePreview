@@ -2,15 +2,18 @@ package studio.loophole.android_things_kotlin
 
 import android.app.Activity
 import android.graphics.Bitmap
+import android.graphics.SurfaceTexture
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
+import android.view.TextureView
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.google.android.things.pio.Gpio
 import com.google.android.things.pio.GpioCallback
+import kotlinx.android.synthetic.main.activity_main.*
 
 /**
  * Skeleton of an Android Things activity.
@@ -45,6 +48,8 @@ class MainActivity : Activity() {
     private lateinit var textViewMain : TextView
     private lateinit var MotionImageView : ImageView
     private lateinit var capBtn: Button
+
+    private lateinit var mTextureView: TextureView
     // create vars for all the toys
     private var motionSensorGpio: Gpio? = null
     private var lightGpio: Gpio? = null
@@ -64,15 +69,37 @@ class MainActivity : Activity() {
         capBtn = findViewById(R.id.capBtn)
         MotionImageView = findViewById(R.id.image_picture)
 
+//        mTextureView.surfaceTextureListener(textureListener)
+        texture.surfaceTextureListener = textureListener
         //run the start func
         start()
 
     }
 
+    //TextureView SurfaceTexture Interface
+    val textureListener = object : TextureView.SurfaceTextureListener {
+        override fun onSurfaceTextureSizeChanged(p0: SurfaceTexture?, p1: Int, p2: Int) {
+
+        }
+
+        override fun onSurfaceTextureUpdated(p0: SurfaceTexture?) {
+
+        }
+
+        override fun onSurfaceTextureDestroyed(p0: SurfaceTexture?): Boolean {
+            return false
+        }
+
+        override fun onSurfaceTextureAvailable(p0: SurfaceTexture?, p1: Int, p2: Int) {
+            Log.d(TAG, "onSurfaceTextureAvailable -----")
+            //setup Camera
+            camera = CustomCamera.getInstance()
+            camera?.initializeCamera(this@MainActivity, Handler(), imageAvailableListener)
+        }
+    }
+
     private fun setup() {
-        //setup Camera
-        camera = CustomCamera.getInstance()
-        camera?.initializeCamera(this, Handler(), imageAvailableListener)
+
 
 
 
