@@ -12,25 +12,13 @@
     <list default="true" id="a1ca3eab-6965-4815-acae-dc2b951eef64" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera$InstanceHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera$InstanceHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera$imageAvailableListener$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera$imageAvailableListener$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera$mCaptureCallback$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera$mCaptureCallback$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera$mSessionCallback$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera$mSessionCallback$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera$mStateCallback$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera$mStateCallback$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/CustomCamera.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/MainActivity$imageAvailableListener$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/MainActivity$start$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/MainActivity$start$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/studio/loophole/android_things_kotlin/MainActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/CustomCamera$InstanceHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/CustomCamera$InstanceHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/CustomCamera$imageAvailableListener$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/CustomCamera$imageAvailableListener$1.class" />
@@ -38,18 +26,12 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/CustomCamera$mSessionCallback$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/CustomCamera$mSessionCallback$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/CustomCamera$mStateCallback$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/CustomCamera$mStateCallback$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/CustomCamera.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/CustomCamera.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/MainActivity$imageAvailableListener$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/MainActivity$start$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/MainActivity$start$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/studio/loophole/android_things_kotlin/MainActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera$InstanceHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera$InstanceHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera$imageAvailableListener$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera$imageAvailableListener$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera$mCaptureCallback$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera$mCaptureCallback$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera$mSessionCallback$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera$mSessionCallback$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera$mStateCallback$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera$mStateCallback$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/CustomCamera.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/MainActivity$imageAvailableListener$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/MainActivity$start$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/MainActivity$start$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/studio/loophole/android_things_kotlin/MainActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" />
@@ -65,11 +47,7 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" />
@@ -88,19 +66,13 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera$InstanceHolder.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera$InstanceHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera$imageAvailableListener$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera$imageAvailableListener$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera$mCaptureCallback$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera$mCaptureCallback$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera$mSessionCallback$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera$mSessionCallback$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera$mStateCallback$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera$mStateCallback$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/CustomCamera.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/MainActivity$imageAvailableListener$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/MainActivity$start$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/MainActivity$start$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/studio/loophole/android_things_kotlin/MainActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/studio/loophole/android_things_kotlin/CustomCamera.kt" afterPath="$PROJECT_DIR$/app/src/main/java/studio/loophole/android_things_kotlin/CustomCamera.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/studio/loophole/android_things_kotlin/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/studio/loophole/android_things_kotlin/MainActivity.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -126,10 +98,46 @@
       <file leaf-file-name="CustomCamera.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/studio/loophole/android_things_kotlin/CustomCamera.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="93" column="29" lean-forward="false" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+            <state relative-caret-position="190">
+              <caret line="275" column="9" lean-forward="true" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="9" />
               <folding>
-                <element signature="e#48#610#0" expanded="true" />
+                <element signature="e#48#952#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraManager.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/hardware/camera2/CameraManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+              <folding>
+                <marker date="1526389425589" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1526389425589" expanded="false" signature="148:227" ph="..." />
+                <marker date="1526389425589" expanded="false" signature="283:294" ph=" { " />
+                <marker date="1526389425589" expanded="false" signature="330:336" ph=" }" />
+                <marker date="1526389425589" expanded="true" signature="405:457" ph="{...}" />
+                <marker date="1526389425589" expanded="true" signature="566:618" ph="{...}" />
+                <marker date="1526389425589" expanded="true" signature="712:764" ph="{...}" />
+                <marker date="1526389425589" expanded="true" signature="859:911" ph="{...}" />
+                <marker date="1526389425589" expanded="true" signature="991:1043" ph="{...}" />
+                <marker date="1526389425589" expanded="true" signature="1149:1201" ph="{...}" />
+                <marker date="1526389425589" expanded="true" signature="1317:1369" ph="{...}" />
+                <marker date="1526389425589" expanded="true" signature="1463:1515" ph="{...}" />
+                <marker date="1526389425589" expanded="true" signature="1564:1920" ph="{...}" />
+                <marker date="1526389425589" expanded="false" signature="1596:1611" ph=" { " />
+                <marker date="1526389425589" expanded="false" signature="1647:1657" ph=" }" />
+                <marker date="1526389425589" expanded="false" signature="1718:1733" ph=" { " />
+                <marker date="1526389425589" expanded="false" signature="1769:1779" ph=" }" />
+                <marker date="1526389425589" expanded="true" signature="1854:1914" ph="{...}" />
+                <marker date="1526389425589" expanded="true" signature="1976:2318" ph="{...}" />
+                <marker date="1526389425589" expanded="false" signature="2015:2030" ph=" { " />
+                <marker date="1526389425589" expanded="false" signature="2066:2076" ph=" }" />
+                <marker date="1526389425589" expanded="false" signature="2132:2147" ph=" { " />
+                <marker date="1526389425589" expanded="false" signature="2183:2193" ph=" }" />
+                <marker date="1526389425589" expanded="false" signature="2251:2266" ph=" { " />
+                <marker date="1526389425589" expanded="false" signature="2302:2312" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -2568,6 +2576,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1680" height="955" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2580,11 +2589,11 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56395346" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13308914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2662,12 +2671,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/hardware/camera2/CameraManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <marker date="1526389425589" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1526389425589" expanded="false" signature="148:227" ph="..." />
+            <marker date="1526389425589" expanded="false" signature="283:294" ph=" { " />
+            <marker date="1526389425589" expanded="false" signature="330:336" ph=" }" />
+            <marker date="1526389425589" expanded="true" signature="405:457" ph="{...}" />
+            <marker date="1526389425589" expanded="true" signature="566:618" ph="{...}" />
+            <marker date="1526389425589" expanded="true" signature="712:764" ph="{...}" />
+            <marker date="1526389425589" expanded="true" signature="859:911" ph="{...}" />
+            <marker date="1526389425589" expanded="true" signature="991:1043" ph="{...}" />
+            <marker date="1526389425589" expanded="true" signature="1149:1201" ph="{...}" />
+            <marker date="1526389425589" expanded="true" signature="1317:1369" ph="{...}" />
+            <marker date="1526389425589" expanded="true" signature="1463:1515" ph="{...}" />
+            <marker date="1526389425589" expanded="true" signature="1564:1920" ph="{...}" />
+            <marker date="1526389425589" expanded="false" signature="1596:1611" ph=" { " />
+            <marker date="1526389425589" expanded="false" signature="1647:1657" ph=" }" />
+            <marker date="1526389425589" expanded="false" signature="1718:1733" ph=" { " />
+            <marker date="1526389425589" expanded="false" signature="1769:1779" ph=" }" />
+            <marker date="1526389425589" expanded="true" signature="1854:1914" ph="{...}" />
+            <marker date="1526389425589" expanded="true" signature="1976:2318" ph="{...}" />
+            <marker date="1526389425589" expanded="false" signature="2015:2030" ph=" { " />
+            <marker date="1526389425589" expanded="false" signature="2066:2076" ph=" }" />
+            <marker date="1526389425589" expanded="false" signature="2132:2147" ph=" { " />
+            <marker date="1526389425589" expanded="false" signature="2183:2193" ph=" }" />
+            <marker date="1526389425589" expanded="false" signature="2251:2266" ph=" { " />
+            <marker date="1526389425589" expanded="false" signature="2302:2312" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/studio/loophole/android_things_kotlin/CustomCamera.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="93" column="29" lean-forward="false" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+        <state relative-caret-position="190">
+          <caret line="275" column="9" lean-forward="true" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="9" />
           <folding>
-            <element signature="e#48#610#0" expanded="true" />
+            <element signature="e#48#952#0" expanded="true" />
           </folding>
         </state>
       </provider>

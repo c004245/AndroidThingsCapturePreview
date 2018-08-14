@@ -6,11 +6,13 @@ import android.content.Context
 import android.graphics.*
 import android.hardware.camera2.*
 import android.hardware.camera2.CameraAccessException.CAMERA_ERROR
+import android.hardware.camera2.params.StreamConfigurationMap
 import android.media.ImageReader
 import android.os.Bundle
 import android.os.Handler
 import android.os.HandlerThread
 import android.util.Log
+import android.util.Size
 import android.view.LayoutInflater
 import android.view.TextureView
 import android.view.View
@@ -18,12 +20,17 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import kotlinx.android.synthetic.main.activity_main.*
+import studio.loophole.android_things_kotlin.CustomCamera.InstanceHolder.IMAGE_HEIGHT
+import studio.loophole.android_things_kotlin.CustomCamera.InstanceHolder.IMAGE_WIDTH
+import studio.loophole.android_things_kotlin.CustomCamera.InstanceHolder.MAX_IMAGES
 
 
 class CustomCamera : Fragment(), View.OnClickListener  {
 
     private var mImageReader: ImageReader? = null
     private var mCameraDevice: CameraDevice? = null
+
+    private var mCameraDevice2: CameraDevice? = null
     private var mCaptureSession: CameraCaptureSession? = null
     private lateinit var imageCapturedListener: ImageCapturedListener
 
@@ -118,10 +125,13 @@ class CustomCamera : Fragment(), View.OnClickListener  {
     }
 
 
+    lateinit var imageDimension: Size
 
     fun initializeCamera(context: Context, textureView: TextureView, backgroundHandler: Handler, imageListener: ImageCapturedListener) {
+        this.mTextureView = textureView
         val manager = context.getSystemService(Context.CAMERA_SERVICE) as CameraManager
         val camIds: Array<String>
+//        val camIds2: Array<String>
         try {
             camIds = manager.cameraIdList
         } catch (e: CameraAccessException) {
@@ -132,14 +142,21 @@ class CustomCamera : Fragment(), View.OnClickListener  {
             Log.e(TAG, "No cameras found")
             throw CameraAccessException(CAMERA_ERROR, "No Cameras found")
         }
+        val id = camIds[0] //캡쳐
+        val id2 = camIds[1] //프리뷰
 
-        val id = camIds[0]
+        var characteristics: CameraCharacteristics = manager.getCameraCharacteristics(id2)
+        var map: StreamConfigurationMap = characteristics.get(CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP)
+
+        imageDimension = map.getOutputSizes(SurfaceTexture::class.java)[2]
+
         mImageReader = ImageReader.newInstance(IMAGE_WIDTH, IMAGE_HEIGHT,
                 ImageFormat.JPEG, MAX_IMAGES)
         imageCapturedListener = imageListener
         mImageReader?.setOnImageAvailableListener(imageAvailableListener, backgroundHandler)
         try {
             manager.openCamera(id, mStateCallback, backgroundHandler)
+            manager.openCamera(id2, mStateCallback2, backgroundHandler)
         } catch (cae: Exception) {
             Log.e(TAG, "Camera access exception", cae)
         }
@@ -224,6 +241,38 @@ class CustomCamera : Fragment(), View.OnClickListener  {
         override fun onClosed(camera: CameraDevice) {
             Log.d(TAG, "Closed camera, releasing")
             mCameraDevice = null
+        }
+    }
+
+    //프리뷰 카메라 상태 콜백
+    private val mStateCallback2 = object : CameraDevice.StateCallback() {
+        override fun onOpened(p0: CameraDevice?) {
+            Log.d(TAG, "mStateCallback2 --- onOpened");
+            mCameraDevice2 = p0;
+            createCameraPreview()
+        }
+
+        override fun onDisconnected(p0: CameraDevice?) {
+            Log.d(TAG, "mStateCallback2 --- onDisconnected");
+
+            p0!!.close()
+            mCameraDevice2 = null
+        }
+
+        override fun onError(p0: CameraDevice, error: Int) {
+            Log.d(TAG, "mStateCallback2 --- onError")
+
+            mCameraDevice2 = null;
+            p0.close()
+        }
+    }
+
+    //프리뷰 카메라 생성
+    fun createCameraPreview() {
+        Log.d(TAG, "createCameraPreview ----");
+
+        try {
+//            var texture: SurfaceTexture = mTextureView
         }
     }
 
