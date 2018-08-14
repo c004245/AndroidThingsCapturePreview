@@ -1,26 +1,61 @@
 package studio.loophole.android_things_kotlin
 
 
+import android.app.Fragment
 import android.content.Context
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
-import android.graphics.ImageFormat
-import android.graphics.Matrix
+import android.graphics.*
 import android.hardware.camera2.*
 import android.hardware.camera2.CameraAccessException.CAMERA_ERROR
 import android.media.ImageReader
+import android.os.Bundle
 import android.os.Handler
 import android.util.Log
+import android.view.LayoutInflater
+import android.view.TextureView
+import android.view.View
+import android.view.ViewGroup
 
 
-class CustomCamera : AutoCloseable {
+class CustomCamera : Fragment() {
 
     private var mImageReader: ImageReader? = null
     private var mCameraDevice: CameraDevice? = null
     private var mCaptureSession: CameraCaptureSession? = null
     private lateinit var imageCapturedListener: ImageCapturedListener
 
+    lateinit var mTextureView: TextureView
 
+    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View {
+        Log.d(TAG, "onCreateView")
+        return inflater!!.inflate(R.layout.activity_main, container, false)
+    }
+
+    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+        mTextureView = view?.findViewById<View>(R.id.texture) as TextureView
+
+    }
+
+
+    //TextureView SurfaceTexture Interface
+    val textureListener = object : TextureView.SurfaceTextureListener {
+        override fun onSurfaceTextureSizeChanged(p0: SurfaceTexture?, p1: Int, p2: Int) {
+
+        }
+
+        override fun onSurfaceTextureUpdated(p0: SurfaceTexture?) {
+
+        }
+
+        override fun onSurfaceTextureDestroyed(p0: SurfaceTexture?): Boolean {
+            return false
+        }
+
+        override fun onSurfaceTextureAvailable(p0: SurfaceTexture?, p1: Int, p2: Int) {
+            Log.d(TAG, "onSurfaceTextureAvailable -----")
+            //setup Camera
+
+        }
+    }
     interface ImageCapturedListener {
         fun onImageCaptured(bitmap: Bitmap)
     }
@@ -141,19 +176,23 @@ class CustomCamera : AutoCloseable {
         }
     }
 
-    override fun close() {
-        mCameraDevice?.close()
-    }
+
 
     companion object InstanceHolder {
         val IMAGE_WIDTH = 640
         val IMAGE_HEIGHT = 480
         val MAX_IMAGES = 1
-        val TAG = "CustomCamera"
+//        val TAG = "CustomCamera"
+
+        internal val TAG = CustomCamera::class.java.simpleName
         private val mCamera = CustomCamera()
 
         fun getInstance(): CustomCamera {
             return mCamera
+        }
+
+        fun newInstance(): CustomCamera {
+            return CustomCamera()
         }
     }
 }

@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="hdpi"
     format="10"
-    ir-eligibility="CLASS_ADDED"
+    ir-eligibility="FIELD_TYPE_CHANGE"
     plugin-version="3.1.2"
-    timestamp="1534210545148"
+    timestamp="1534212382178"
     token="-7618887173474547951"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="12" />
+        duration="18" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="42" />
+        duration="22" />
     <task
         name="verifier"
-        duration="21" />
+        duration="4" />
 
     <artifact
         location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -75,24 +75,19 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1534209482798"
+        timestamp="1534212093857"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1534209529851"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1534210545148"
+        ir-eligibility="FIELD_TYPE_CHANGE"
+        timestamp="1534212382178"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_0.apk"

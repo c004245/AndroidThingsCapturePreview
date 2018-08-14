@@ -63,16 +63,30 @@ class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         //no clue whats this does
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.main)
 
-        //more of the views
+        getWindow().getDecorView().setSystemUiVisibility(
+                View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                    or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                    or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                    or View.SYSTEM_UI_FLAG_FULLSCREEN
+                    or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+                    or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+        )
+
+        if (null == savedInstanceState) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.container, CustomCamera.getInstance())
+                    .commit()
+        }
+       /* //more of the views
         capBtn = findViewById(R.id.capBtn)
         MotionImageView = findViewById(R.id.image_picture)
 
 //        mTextureView.surfaceTextureListener(textureListener)
         texture.surfaceTextureListener = textureListener
         //run the start func
-        start()
+        start()*/
 
     }
 
@@ -93,15 +107,15 @@ class MainActivity : Activity() {
         override fun onSurfaceTextureAvailable(p0: SurfaceTexture?, p1: Int, p2: Int) {
             Log.d(TAG, "onSurfaceTextureAvailable -----")
             //setup Camera
-            camera = CustomCamera.getInstance()
-            camera?.initializeCamera(this@MainActivity, Handler(), imageAvailableListener)
+
         }
     }
 
     private fun setup() {
 
 
-
+        camera = CustomCamera.getInstance()
+        camera?.initializeCamera(this@MainActivity, Handler(), imageAvailableListener)
 
     }
 

@@ -2,5 +2,9 @@
     {
         "merged": "/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/src/main/res/layout/main.xml"
     }
 ]
