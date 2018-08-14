@@ -13,16 +13,15 @@ import android.os.Handler
 import android.os.HandlerThread
 import android.util.Log
 import android.util.Size
-import android.view.LayoutInflater
-import android.view.TextureView
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import studio.loophole.android_things_kotlin.CustomCamera.InstanceHolder.IMAGE_HEIGHT
 import studio.loophole.android_things_kotlin.CustomCamera.InstanceHolder.IMAGE_WIDTH
 import studio.loophole.android_things_kotlin.CustomCamera.InstanceHolder.MAX_IMAGES
+import java.util.*
 
 
 class CustomCamera : Fragment(), View.OnClickListener  {
@@ -126,6 +125,8 @@ class CustomCamera : Fragment(), View.OnClickListener  {
 
 
     lateinit var imageDimension: Size
+    lateinit var mPreviewRequestBuilder: CaptureRequest.Builder
+    lateinit var captureRequest: CaptureRequest
 
     fun initializeCamera(context: Context, textureView: TextureView, backgroundHandler: Handler, imageListener: ImageCapturedListener) {
         this.mTextureView = textureView
@@ -269,10 +270,46 @@ class CustomCamera : Fragment(), View.OnClickListener  {
 
     //프리뷰 카메라 생성
     fun createCameraPreview() {
-        Log.d(TAG, "createCameraPreview ----");
+        Log.d(TAG, "createCameraPreview ----" + mTextureView);
+
 
         try {
-//            var texture: SurfaceTexture = mTextureView
+            var texture: SurfaceTexture = mTextureView.surfaceTexture
+            assert(texture != null)
+
+            Log.d(TAG, "create imageDimension ->" + imageDimension.width + "--" + imageDimension.height)
+            texture.setDefaultBufferSize(imageDimension.width, imageDimension.height)
+
+            var surface = Surface(texture)
+
+            mPreviewRequestBuilder = mCameraDevice2!!.createCaptureRequest(CameraDevice.TEMPLATE_PREVIEW)
+            mPreviewRequestBuilder.addTarget(surface)
+
+            mCameraDevice2!!.createCaptureSession(arrayListOf(surface), object : CameraCaptureSession.StateCallback() {
+                override fun onConfigured(session: CameraCaptureSession) {
+
+                    if (mCameraDevice2 == null) {
+                        return
+                    }
+
+                    mCaptureSession = session
+
+                    try {
+                        mPreviewRequestBuilder.set(CaptureRequest.CONTROL_MODE, CameraMetadata.CONTROL_MODE_AUTO)
+                        captureRequest = mPreviewRequestBuilder.build()
+                        mCaptureSession!!.setRepeatingRequest(captureRequest, null, mBackgroundHandler)
+                    } catch (e: CameraAccessException) {
+                        e.printStackTrace()
+                    }
+                }
+
+                override fun onConfigureFailed(session: CameraCaptureSession) {
+                    Toast.makeText(context, "Configuration change", Toast.LENGTH_LONG).show()
+
+                }
+            }, null)
+        } catch (e: CameraAccessException) {
+            e.printStackTrace()
         }
     }
 

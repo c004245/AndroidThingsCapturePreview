@@ -7,22 +7,22 @@
     format="10"
     ir-eligibility="CLASS_ADDED"
     plugin-version="3.1.2"
-    timestamp="1534221052645"
+    timestamp="1534221960072"
     token="-7618887173474547951"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="26" />
+        duration="7" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="27" />
+        duration="17" />
     <task
         name="verifier"
-        duration="8" />
+        duration="7" />
 
     <artifact
         location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -75,7 +75,7 @@
     <build
         build-mode="COLD"
         ir-eligibility="CLASS_ADDED"
-        timestamp="1534221052645"
+        timestamp="1534221960072"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/hyunwook/Documents/Raspberry/James/AndroidThingsImageCapture/app/build/intermediates/split-apk/debug/slices/slice_0.apk"

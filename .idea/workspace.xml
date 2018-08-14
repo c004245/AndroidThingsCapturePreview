@@ -98,10 +98,10 @@
       <file leaf-file-name="CustomCamera.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/studio/loophole/android_things_kotlin/CustomCamera.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="275" column="9" lean-forward="true" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="9" />
+            <state relative-caret-position="336">
+              <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
               <folding>
-                <element signature="e#48#952#0" expanded="true" />
+                <element signature="e#48#899#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2707,10 +2707,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/studio/loophole/android_things_kotlin/CustomCamera.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="275" column="9" lean-forward="true" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="9" />
+        <state relative-caret-position="336">
+          <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
           <folding>
-            <element signature="e#48#952#0" expanded="true" />
+            <element signature="e#48#899#0" expanded="true" />
           </folding>
         </state>
       </provider>
