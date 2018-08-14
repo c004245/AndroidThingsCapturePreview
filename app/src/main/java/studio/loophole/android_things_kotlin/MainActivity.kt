@@ -4,11 +4,13 @@ import android.app.Activity
 import android.graphics.Bitmap
 import android.os.Bundle
 import android.os.Handler
+import android.util.Log
+import android.view.View
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.google.android.things.pio.Gpio
 import com.google.android.things.pio.GpioCallback
-import com.google.android.things.pio.PeripheralManagerService
 
 /**
  * Skeleton of an Android Things activity.
@@ -42,7 +44,7 @@ class MainActivity : Activity() {
     //some display stuff
     private lateinit var textViewMain : TextView
     private lateinit var MotionImageView : ImageView
-
+    private lateinit var capBtn: Button
     // create vars for all the toys
     private var motionSensorGpio: Gpio? = null
     private var lightGpio: Gpio? = null
@@ -59,7 +61,7 @@ class MainActivity : Activity() {
         setContentView(R.layout.activity_main)
 
         //more of the views
-        textViewMain = findViewById(R.id.text_main)
+        capBtn = findViewById(R.id.capBtn)
         MotionImageView = findViewById(R.id.image_picture)
 
         //run the start func
@@ -72,19 +74,7 @@ class MainActivity : Activity() {
         camera = CustomCamera.getInstance()
         camera?.initializeCamera(this, Handler(), imageAvailableListener)
 
-        //setup motion sensor
-        motionSensorGpio = PeripheralManagerService().openGpio(MOTION_SENSOR_PIN)
-        motionSensorGpio?.setDirection(Gpio.DIRECTION_IN)
-        motionSensorGpio?.setActiveType(Gpio.ACTIVE_HIGH)
-        motionSensorGpio?.setEdgeTriggerType(Gpio.EDGE_BOTH)
 
-        //Setup light1
-        lightGpio = PeripheralManagerService().openGpio(LIGHT_PIN)
-        lightGpio?.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW)
-
-        //setup light 2
-        light2Gpio = PeripheralManagerService().openGpio(LIGHT_2_PIN)
-        light2Gpio?.setDirection(Gpio.DIRECTION_OUT_INITIALLY_HIGH)
 
     }
 
@@ -108,7 +98,12 @@ class MainActivity : Activity() {
         //setup Pins
         setup()
 
-        //this will do stuff if we see motion
+        val capture = findViewById<View>(R.id.capBtn) as Button
+        capture.setOnClickListener {
+            Log.d(TAG, "capture start");
+            camera?.takePicture()
+        }
+      /*  //this will do stuff if we see motion
         motionSensorGpio?.registerGpioCallback(object : GpioCallback() {
             override fun onGpioEdge(gpio: Gpio): Boolean {
                 if (!gpio.value) {
@@ -121,25 +116,24 @@ class MainActivity : Activity() {
                 lightToggle(gpio.value)
                 return true
             }
-        })
+        })*/
     }
 
 
     fun setdown(){
-        motionSensorGpio?.close()
-        motionSensorGpio = null;
 
-        lightGpio?.close()
-        lightGpio = null
-
-        light2Gpio?.close()
-        light2Gpio = null
     }
 
     // this runs on shutdown
     override fun onDestroy() {
         setdown()
         super.onDestroy()
+    }
+
+    companion object {
+
+        internal val TAG = MainActivity::class.java.simpleName
+
     }
 
 }

@@ -441,14 +441,14 @@ public final class R {
   public static final class id {
     public static final int all=0x7f030000;
     public static final int basic=0x7f030001;
-    public static final int chains=0x7f030002;
-    public static final int image_picture=0x7f030003;
-    public static final int none=0x7f030004;
-    public static final int packed=0x7f030005;
-    public static final int parent=0x7f030006;
-    public static final int spread=0x7f030007;
-    public static final int spread_inside=0x7f030008;
-    public static final int text_main=0x7f030009;
+    public static final int capBtn=0x7f030002;
+    public static final int chains=0x7f030003;
+    public static final int image_picture=0x7f030004;
+    public static final int none=0x7f030005;
+    public static final int packed=0x7f030006;
+    public static final int parent=0x7f030007;
+    public static final int spread=0x7f030008;
+    public static final int spread_inside=0x7f030009;
     public static final int wrap=0x7f03000a;
   }
   public static final class layout {
@@ -584,58 +584,6 @@ public final class R {
         0x7f01002b
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:maxHeight
-     */
-    public static final int ConstraintLayout_Layout_android_maxHeight=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:maxWidth
-     */
-    public static final int ConstraintLayout_Layout_android_maxWidth=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:minHeight
-     */
-    public static final int ConstraintLayout_Layout_android_minHeight=4;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:minWidth
-     */
-    public static final int ConstraintLayout_Layout_android_minWidth=3;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
@@ -652,6 +600,58 @@ public final class R {
      * @attr name android:orientation
      */
     public static final int ConstraintLayout_Layout_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int ConstraintLayout_Layout_android_maxWidth=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int ConstraintLayout_Layout_android_maxHeight=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int ConstraintLayout_Layout_android_minWidth=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
      * <p>This symbol is the offset where the {@link studio.loophole.android_things_kotlin.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1451,27 +1451,22 @@ public final class R {
         0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
      *
-     * @attr name android:alpha
+     * @attr name android:orientation
      */
-    public static final int ConstraintSet_android_alpha=9;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:elevation
-     */
-    public static final int ConstraintSet_android_elevation=21;
+    public static final int ConstraintSet_android_orientation=0;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#id}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -1485,106 +1480,23 @@ public final class R {
      */
     public static final int ConstraintSet_android_id=1;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
+     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * <tr><td>gone</td><td>2</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * <tr><td>visible</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name android:layout_height
+     * @attr name android:visibility
      */
-    public static final int ConstraintSet_android_layout_height=4;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginBottom
-     */
-    public static final int ConstraintSet_android_layout_marginBottom=8;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginEnd
-     */
-    public static final int ConstraintSet_android_layout_marginEnd=19;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginLeft
-     */
-    public static final int ConstraintSet_android_layout_marginLeft=5;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginRight
-     */
-    public static final int ConstraintSet_android_layout_marginRight=7;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginStart
-     */
-    public static final int ConstraintSet_android_layout_marginStart=18;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginTop
-     */
-    public static final int ConstraintSet_android_layout_marginTop=6;
+    public static final int ConstraintSet_android_visibility=2;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -1609,58 +1521,89 @@ public final class R {
      */
     public static final int ConstraintSet_android_layout_width=3;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name android:orientation
+     * @attr name android:layout_height
      */
-    public static final int ConstraintSet_android_orientation=0;
+    public static final int ConstraintSet_android_layout_height=4;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginLeft
+     */
+    public static final int ConstraintSet_android_layout_marginLeft=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginTop
+     */
+    public static final int ConstraintSet_android_layout_marginTop=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginRight
+     */
+    public static final int ConstraintSet_android_layout_marginRight=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginBottom
+     */
+    public static final int ConstraintSet_android_layout_marginBottom=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name android:rotationX
+     * @attr name android:alpha
      */
-    public static final int ConstraintSet_android_rotationX=16;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:rotationY
-     */
-    public static final int ConstraintSet_android_rotationY=17;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:scaleX
-     */
-    public static final int ConstraintSet_android_scaleX=14;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:scaleY
-     */
-    public static final int ConstraintSet_android_scaleY=15;
+    public static final int ConstraintSet_android_alpha=9;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -1714,6 +1657,68 @@ public final class R {
      */
     public static final int ConstraintSet_android_translationY=13;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleX
+     */
+    public static final int ConstraintSet_android_scaleX=14;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleY
+     */
+    public static final int ConstraintSet_android_scaleY=15;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationX
+     */
+    public static final int ConstraintSet_android_rotationX=16;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationY
+     */
+    public static final int ConstraintSet_android_rotationY=17;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginStart
+     */
+    public static final int ConstraintSet_android_layout_marginStart=18;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginEnd
+     */
+    public static final int ConstraintSet_android_layout_marginEnd=19;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
@@ -1727,23 +1732,18 @@ public final class R {
      */
     public static final int ConstraintSet_android_translationZ=20;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>gone</td><td>2</td><td></td></tr>
-     * <tr><td>invisible</td><td>1</td><td></td></tr>
-     * <tr><td>visible</td><td>0</td><td></td></tr>
-     * </table>
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
      *
-     * @attr name android:visibility
+     * @attr name android:elevation
      */
-    public static final int ConstraintSet_android_visibility=2;
+    public static final int ConstraintSet_android_elevation=21;
     /**
      * <p>This symbol is the offset where the {@link studio.loophole.android_things_kotlin.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
